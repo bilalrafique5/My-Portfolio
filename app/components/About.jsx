@@ -31,17 +31,17 @@ const About = () => {
             Data Scientist & Machine Learning Engineer
           </h3>
           <p className="mb-6 text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-            I'm a <span className="font-bold text-blue-700 dark:text-emerald-400">22-year-old Computer Science undergraduate</span> (7th semester) with a passion for data, AI, and innovation.<br className="hidden sm:inline" />
-            Experienced in building data-driven solutions and machine learning models using <span className="font-semibold text-blue-700 dark:text-emerald-400">Python, Pandas, Scikit-Learn, TensorFlow, PyTorch</span> and more.<br className="hidden md:inline" />
-            I love turning data into actionable insights and thrive in collaborative, fast-paced, and research-oriented environments.
-
+            I'm a <span className="font-bold text-blue-700 dark:text-emerald-400">22-year-old Computer Science undergraduate</span> (7th semester) passionate about data, AI, and machine learning.<br className="hidden sm:inline" />
+            Self-motivated with hands-on experience in building ML models, AI-powered applications, and Generative AI solutions using <span className="font-semibold text-blue-700 dark:text-emerald-400">Python, Pandas, Scikit-Learn, TensorFlow, PyTorch, LangChain, FastAPI</span>.<br className="hidden md:inline" />
+            I enjoy turning data into actionable insights and innovative solutions, and thrive in collaborative, fast-paced, and research-driven environments.
           </p>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-base sm:text-lg">
             {/* Age */}
             <div className="flex items-top gap-2">
               <Arrow />
               <span className="font-bold">Age:</span>
-              <span>23</span>
+              <span>22</span>
             </div>
             {/* Degree */}
             <div className="flex items-top gap-2">
@@ -74,7 +74,7 @@ const About = () => {
             </div>
             {/* Freelance */}
             <div className="flex items-top gap-2">
-            
+
             </div>
             {/* Job */}
             <div className="flex items-top gap-2 col-span-1 sm:col-span-2">

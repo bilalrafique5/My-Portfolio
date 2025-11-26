@@ -2,45 +2,49 @@ import React from 'react';
 
 const services = [
   {
-    title: 'Full Stack Development',
+    title: 'Machine Learning & AI Models',
     icon: (
       <svg width="36" height="36" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
-        <rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M3 10h18"/>
+        <path d="M12 3v18M3 12h18M4.5 4.5l15 15M19.5 4.5l-15 15"/>
       </svg>
     ),
-    desc: 'Building robust, scalable, and modern web applications using React, Next.js, Node.js, and databases like MongoDB & PostgreSQL.',
-    tags: ['React', 'Next.js', 'Node.js', 'MongoDB', 'PostgreSQL']
+    desc: 'Building predictive and classification models using Python, Scikit-Learn, TensorFlow, and PyTorch for real-world datasets.',
+    tags: ['Python', 'Scikit-Learn', 'TensorFlow', 'PyTorch', 'Regression', 'Classification']
   },
   {
-    title: 'UI/UX Design',
+    title: 'Generative AI & LangChain',
     icon: (
       <svg width="36" height="36" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
-        <rect x="3" y="3" width="18" height="18" rx="4"/><path d="M7 7h.01M17 7h.01M7 17h.01M17 17h.01"/>
+        <path d="M12 2a10 10 0 0 0 0 20M2 12a10 10 0 0 0 20 0"/>
       </svg>
     ),
-    desc: 'Designing beautiful, user-friendly interfaces with a focus on accessibility and seamless user experience.',
-    tags: ['Figma', 'Tailwind CSS', 'Accessibility']
+    desc: 'Developing AI-powered applications using LangChain, Groq API, and Hugging Face for text generation, restaurant name creation, and other generative tasks.',
+    tags: ['LangChain', 'Groq API', 'Hugging Face', 'LLMs', 'Python']
   },
   {
-    title: 'API Integration',
+    title: 'NLP & RAG Applications',
     icon: (
       <svg width="36" height="36" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
-        <circle cx="12" cy="12" r="3"/><path d="M19.4 15A7 7 0 0 0 21 12a7 7 0 0 0-1.6-3M4.6 9A7 7 0 0 0 3 12c0 1.1.26 2.1.74 3"/>
+        <circle cx="12" cy="12" r="3"/>
+        <path d="M19.4 15A7 7 0 0 0 21 12a7 7 0 0 0-1.6-3M4.6 9A7 7 0 0 0 3 12c0 1.1.26 2.1.74 3"/>
       </svg>
     ),
-    desc: 'Connecting your app with third-party services, RESTful APIs, and cloud platforms for dynamic, real-world functionality.',
-    tags: ['REST', 'OAuth', 'Cloud', 'Webhooks']
+    desc: 'Building chatbots and real-time NLP systems with RAG architecture, FAISS vector databases, and context-aware responses for healthcare and sentiment monitoring.',
+    tags: ['RAG', 'NLP', 'FAISS', 'Vector DB', 'Groq API', 'AI Chatbot']
   },
   {
-    title: 'Performance Optimization',
+    title: 'Data Analysis & Insights',
     icon: (
       <svg width="36" height="36" fill="none" stroke="currentColor" strokeWidth="2.2" viewBox="0 0 24 24">
-        <path d="M3 12a9 9 0 1 0 9-9"/><path d="M12 7v5l3 3"/>
+        <path d="M3 3v18h18"/>
+        <path d="M18 18V8H8v10h10z"/>
       </svg>
     ),
-    desc: 'Speeding up your website with code splitting, lazy loading, and best practices for SEO and Core Web Vitals.',
-    tags: ['SEO', 'Core Web Vitals', 'Lighthouse']
+    desc: 'Performing exploratory data analysis, feature engineering, and visualization to extract actionable insights and support decision-making.',
+    tags: ['Python', 'Pandas', 'Matplotlib', 'Seaborn', 'EDA', 'Data Visualization']
   }
+
+  
 ];
 
 const Services = () => {
@@ -51,7 +55,7 @@ const Services = () => {
           My <span className="bg-gradient-to-r from-blue-600 to-emerald-400 dark:from-emerald-400 dark:to-blue-700 bg-clip-text text-transparent">Services</span>
         </h2>
         <p className="text-center text-gray-600 dark:text-gray-300 mb-10 max-w-2xl mx-auto">
-          I offer a range of services to help you build, launch, and grow your digital product with modern web technologies and design.
+          I offer a range of AI, machine learning, and data-driven solutions to help you transform data into actionable insights and build intelligent applications.
         </p>
         <div className="grid gap-8 lg:grid-cols-2">
           {services.map((srv, idx) => (
@@ -62,8 +66,8 @@ const Services = () => {
               <div className="flex items-center gap-4">
                 <div>
                   <span className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-tr from-blue-600 to-emerald-400 dark:from-emerald-600 dark:to-blue-700 text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  {srv.icon}
-                </span>
+                    {srv.icon}
+                  </span>
                 </div>
                 <h3 className="text-xl font-bold text-blue-900 dark:text-emerald-300 tracking-tight">{srv.title}</h3>
               </div>

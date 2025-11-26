@@ -89,11 +89,11 @@ const Contact = () => {
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6 text-center">
           <div>
             <span className="font-bold text-blue-900 dark:text-emerald-300">Email:</span>{' '}
-            <a href="mailto:alifaizanch3101@gmail.com" className="underline hover:text-blue-700 dark:hover:text-emerald-400 transition">alifaizanch3101@gmail.com</a>
+            <a href="mailto:chbilalrafique2@gmail.com" className="underline hover:text-blue-700 dark:hover:text-emerald-400 transition">chbilalrafique2@gmail.com</a>
           </div>
           <div>
             <span className="font-bold text-blue-900 dark:text-emerald-300">Phone:</span>{' '}
-            <a href="tel:+923184757136" className="underline hover:text-blue-700 dark:hover:text-emerald-400 transition">+92 318 4757136</a>
+            <a href="tel:+923184757136" className="underline hover:text-blue-700 dark:hover:text-emerald-400 transition">+92 314 7994691</a>
           </div>
         </div>
         {/* Decorative Glow */}

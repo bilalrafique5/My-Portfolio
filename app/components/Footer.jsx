@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto lg:mx-16 px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <Image width={24} height={24} src="/profile.jpeg" alt="logo" className="w-8 h-8 rounded-full border-2 border-blue-200 dark:border-emerald-700 shadow" />
-          <span className="font-bold text-blue-900 dark:text-emerald-400 text-lg tracking-tight">Faizan</span>
+          <span className="font-bold text-blue-900 dark:text-emerald-400 text-lg tracking-tight">Bilal</span>
         </div>
         <nav className="flex flex-wrap gap-4 text-sm font-medium">
           <Link href="/" className="hover:text-blue-700 dark:hover:text-emerald-400 transition">Home</Link>
@@ -17,7 +17,7 @@ const Footer = () => {
           <Link href="#Contact" className="hover:text-blue-700 dark:hover:text-emerald-400 transition">Contact</Link>
         </nav>
         <div className="text-xs text-gray-500 dark:text-gray-400 text-center md:text-right">
-          &copy; {new Date().getFullYear()} Faizan. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Bilal. All Rights Reserved.
         </div>
       </div>
     </footer>

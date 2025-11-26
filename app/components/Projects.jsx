@@ -34,49 +34,40 @@ const projects = [
     desc: "A supervised learning model predicting diabetes using the Pima Indians dataset with strong feature engineering.",
     image: "/projects/pima_diabetes.png",
     tags: ["Classification", "EDA", "Scikit-Learn", "Python"],
-    link: "",
     github: "https://github.com/bilalrafique5/Pima-Indian-Diabetes-model.git"
-  },
-  {
-    title: "Premier League Analysis",
-    desc: "A data analysis project examining Premier League match statistics, player performance, and predictive insights.",
-    image: "/projects/premier_league.png",
-    tags: ["Data Analysis", "Python", "Visualization", "Pandas"],
-    link: "",
-    github: ""
   },
   {
     title: "Real-Time Sentiment Monitoring",
     desc: "A real-time sentiment monitoring system using X (Twitter) data, NLP models, and live dashboard updates.",
     image: "/projects/sentiment_monitor.png",
     tags: ["NLP", "Real-Time Data", "Streamlit", "API Integration"],
-    link: "",
-    github: ""
+    link: "https://real-time-sentiment-monitoring-systemgit-nfi28r3xlbsrni3rmg3ap.streamlit.app/",
+    github: "https://github.com/bilalrafique5/Real-Time-Sentiment-Monitoring-System.git"
   },
   {
     title: "Salary Prediction",
     desc: "A regression model predicting salaries based on experience, skill level, and domain.",
     image: "/projects/salary_prediction.png",
     tags: ["Regression", "Data Preprocessing", "ML Models"],
-    link: "",
-    github: ""
+    github: "https://github.com/bilalrafique5/Salary-Prediction-on-the-basis-of-yearsExperience-.git"
   },
-  {
-    title: "Telecom Customer Churn",
-    desc: "A detailed churn analysis project with EDA, feature selection, and ML models for telecom customer retention.",
-    image: "/projects/telecom_churn.png",
-    tags: ["Classification", "EDA", "Python", "Machine Learning"],
-    link: "",
-    github: ""
-  },
-  {
-    title: "Titanic Survival Prediction",
-    desc: "A binary classification ML model predicting passenger survival using the Titanic dataset.",
-    image: "/projects/titanic.png",
-    tags: ["Classification", "Pandas", "XGBoost", "EDA"],
-    link: "",
-    github: ""
-  }
+ {
+  title: "LangChain + Groq — AI Restaurant Builder",
+  desc: "An AI-powered app that generates restaurant names, taglines, menus, and logos fully based on the user's selected cuisine and theme. Uses LangChain for orchestration, Groq LLM API for fast text generation, and Hugging Face models for image/logo generation.",
+  image: "/projects/restaurant_namer.png",
+  tags: ["LangChain", "Groq API", "Hugging Face", "LLMs", "AI", "Python"],
+  github: "https://github.com/bilalrafique5/langchain-groq-restaurant-namer.git"
+
+},
+{
+  title: "MediMind — RAG Healthcare Chatbot",
+  desc: "An intelligent medical chatbot built using RAG (Retrieval-Augmented Generation) with short-term memory support. The system uses LangChain, custom embeddings, vector search, and Groq LLMs to provide context-aware medical insights and answers.",
+  image: "/projects/medimind.png",
+  tags: ["RAG", "LangChain", "FAISS", "Groq API", "Memory", "AI Chatbot"],
+  github: "https://github.com/bilalrafique5/MediMind-ChatBot.git"
+}
+
+
 ];
 
 const Projects = () => {

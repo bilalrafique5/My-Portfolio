@@ -47,7 +47,7 @@ const About = () => {
             <div className="flex items-top gap-2">
               <Arrow />
               <span className="font-bold">Degree:</span>
-              <span>BSCS</span>
+              <span>Bachelor of Science in Computer Science</span>
             </div>
             {/* Location */}
             <div className="flex items-top gap-2">

@@ -6,8 +6,8 @@ const typingLines = [
   "a Data Scientist.",
   "a Machine Learning Engineer.",
   "a Deep Learning Practitioner.",
-  "a Data Analyst.",
-  "a Problem Solver."
+  "a Problem Solver.",
+  "a Generative AI Enthusiast."
 ];
 
 const TYPING_SPEED = 60;

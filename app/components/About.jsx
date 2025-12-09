@@ -77,7 +77,7 @@ const About = () => {
 
             </div>
             {/* Job */}
-            <div className="flex items-top gap-2 col-span-1 sm:col-span-2">
+            <div className="flex items-top gap-4 col-span-1 sm:col-span-2">
               <Arrow />
               <span className="font-bold">Job:</span>
               <span>Open to work <span className="text-xs text-gray-500">(remote, hybrid & onsite)</span></span>
